@@ -42,7 +42,6 @@ def wishMe():
     else:
         speak("Guten Morgen!")
     speak(f"Es ist {hour} Uhr, {minute} Minuten, {second} Sekunden und {microsecond} Millisekunden.")
-    speak("Villeicht sollte Carl Johann die Millisekunden und Sekunden wieder rausnehmen. Die verwirren nur.")
 
 
 def takeCommand():
